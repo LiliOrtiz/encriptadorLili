@@ -1,0 +1,32 @@
+.redes{
+   position: fixed;  
+   width: 100%;
+   text-align: center;
+}
+
+.git,.linke{
+    width: 60px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.linke{
+    width: 55px;
+}
+.linke:hover{
+    transform: scale(1.05);
+}
+
+.git:hover{
+    transform: scale(1.05);
+}
+
+
+@media screen and (max-width: 800px){
+
+   .redes{
+    position: relative;
+   }
+
+}

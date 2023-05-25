@@ -1,0 +1,80 @@
+body{
+    background: linear-gradient(-20deg,rgb(94, 9, 42) 0%, rgba(168,28,165,0.8211659663865546) 19%, rgba(231,176,230,1) 46%, rgba(0,212,255,0.908000700280112) 73%, rgba(128,234,255,1) 93%) ;  
+    background-attachment: fixed; /* IMAGEN FIJA*/
+}
+
+.contenedores{    
+    height: 100vh;
+    display: flex;
+}
+
+.contenedor__uno__textArea, .contenedor__detallesAlCostado{
+    border-radius: 20px;
+}
+
+.contenedor__uno__textArea{
+    background-color: rgba(221, 221, 221, 0.3) ;   
+    height: 400px;
+    width: 60%;    
+    margin: auto 6rem;  
+    /*box-shadow: 0px 5px 15px 3px #1a1a1a; eje X , eje Y, expansion de la sombra, cuanto borde  y el color*/
+}
+
+.contenedor__detallesAlCostado{
+    background-color: rgb(221, 221, 221, 0.3);
+    height: 400px;
+    width: 30%;
+    margin: auto 2rem;
+}
+
+/* DISEÑO MOBILE*/
+
+@media screen and (max-width: 1030px){
+    .contenedores{
+        padding-top: 3rem;
+    }
+
+    .contenedor__uno__textArea{
+        margin: auto;              
+    }
+
+    .contenedor__detallesAlCostado{
+       margin: auto;
+    }
+}
+
+
+@media screen and (max-width: 800px){
+
+    .contenedores{  
+       display: block;
+       padding-top: 3rem;
+    }
+
+    .contenedor__uno__textArea{
+        margin: auto;     
+        width: 100%; 
+        padding-top: 0.3rem;
+        
+    }
+    
+    .contenedor__detallesAlCostado{
+      margin: auto;
+      height: fit-content;
+      margin-top: 10px;
+      width: 100%;
+      
+    }
+}
+
+@media screen and (max-width: 450px){
+    .contenedor__uno__textArea{
+        display: flex;
+        flex-direction: column;        
+    }
+    .contenedor__uno__botones{
+        display: flex;
+        flex-direction: column;        
+        
+    }
+}

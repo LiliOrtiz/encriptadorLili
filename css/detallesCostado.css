@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+
+.contenedor__detallesAlCostado{
+    text-align: center;
+    padding: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 25px;
+}
+
+.doll{
+    width: 200px;
+    margin: 15px;
+}
+
+/*----------------------------*/
+
+.tituloTextoCod{
+    font-size: 25px;
+    margin-top: 5px; 
+    color: rgb(121, 0, 84); 
+    font-weight: bolder;  
+}
+
+.textoEncriptado{
+    padding: 1rem;
+    margin-top: 5px;
+    text-align: justify;
+}
+
+.btn-copiar{
+    width: 100px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(171, 143, 204);
+    transition: all 0.5s ease;
+}
+
+.btn-copiar:hover{
+    cursor: pointer;
+    background-color: rgb(193, 170, 219);
+    color: rgb(54, 46, 51);
+    box-shadow: 0px 0px 10px rgb(208, 185, 235);
+    transform: scale(1.05);
+}
+
+#iconCopy{
+    margin-top: 2rem;
+    scale: 2;
+    color: rgb(66, 77, 92);
+    transition: all 0.5s ease;
+}
+
+#iconCopy:hover{
+    cursor: pointer;
+    color: rgb(216, 129, 204);
+    text-shadow: 0px 0px 3px rgb(194, 236, 255);
+}
+
+.material-symbols-outlined{
+    font-family: 'Material Symbols Outlined';
+}
